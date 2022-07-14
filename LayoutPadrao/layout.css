@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex; /*coloca no topo da página*/
+    justify-content: space-around; /*espalha a linha*/
+    border: 1px solid #030000; /*cria uma borda*/ /*site com cores: color.adobe.com*/
+    background-color: #2427E0; /*cor de fundo*/
+    height: 100; /*tamanho da cor de fundo*/ 
+    align-items: center; /*centraliza*/
+}
+#pesquisa{
+    border: 1px solid #2493F0;/*cria uma borda no campo pesquisar*/
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 3px; /*da um pequeno espaço antes da escrita*/
+}
+#bt_pesquisar{
+    border: 1px solid #2493F0;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 3px;
+    cursor: pointer; /*coloca a mãozinha*/
+}
+#bt_pesquisar:hover{
+    background-color: #2427E0;
+}

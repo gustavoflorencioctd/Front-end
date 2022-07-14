@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Exemplo FlexBox</title>
+    <style>
+        .container {
+            background-color: #6f6fb1;
+            padding:16px; /*espaçamento*/
+            height:500px;
+            display:flex;
+            flex-direction: row;
+            /* flex-direction: column;*/
+            justify-content: space-between;
+            align-items: baseline; /*align-items: baseline; fica no topo*/
+            /*align-items: center; fica no centro*/
+            flex-wrap: wrap-reverse; /*inverte a tela.*/
+            align-content: center; /*deixa tudo centralizado e tira os espaços*/
+            row-gap: 16px;
+            column-gap: 16px;
+        }
+        * {
+            margin:0;
+        }
+        .caixa-1{
+            background-color: #c6d80f;
+            height: 150px;
+            width: 150px;
+            text-align:center;
+            font-size: 40px;
+            border-radius:16px;
+        }
+
+        .caixa-2{
+            background-color: #d80f0f;
+            height: 150px;
+            width: 150px;
+            text-align:center;
+            font-size: 40px;
+            border-radius:16px;
+        }
+
+        .caixa-3{
+            background-color: #0fd830;
+            height: 150px;
+            width: 150px;
+            text-align:center;
+            font-size: 40px;
+            border-radius:16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="caixa-1">1</div>
+        <div class="caixa-2">2</div>
+        <div class="caixa-3">3</div>
+        <div class="caixa-1">4</div>
+        <div class="caixa-2">5</div>
+        <div class="caixa-3">6</div>
+        <div class="caixa-1">7</div>
+        <div class="caixa-2">8</div>
+        <div class="caixa-3">9</div>
+        <div class="caixa-1">10</div>
+        <div class="caixa-2">11</div>
+        <div class="caixa-3">12</div>
+    </main>
+</body>
+
+</html>
